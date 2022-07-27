@@ -1,0 +1,117 @@
+/* The styles for the element */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1600px;
+    margin: 1em auto;
+    background-color: blanchedalmond;    
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+@font-face {
+    font-family: Castelar;
+    src: url(CASTELAR.TTF);
+}
+/* the styles for the navigation menu */
+#nav_menu ul {
+    list-style-type: none;    
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 398px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    border-right: 2px solid white;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* The styles for the header */
+header {
+    font-family: Castelar;
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid black;
+    background-color:bisque
+    
+}
+header h2 {
+    font-size: 200%;
+    color: green;
+    text-align: center;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-align: center;
+}
+header img {
+    float: left;
+    padding: 0 30px ;
+}
+.shadow {
+	text-shadow: 2px 2px 2px grey;
+}
+/* The styles for the main content */
+main {
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    padding: 1em;
+}
+main h1 {
+    font-family: Castelair;
+    color: brown;
+}
+main h2 {
+    color: #cd853f;
+    font-style: italic;
+    padding: 20px 0 20px 0;
+}
+main p {
+    margin: 10px 20em 0 20em;
+    font-weight: bold;
+}
+main img {
+    width: 640px;
+    height: 480px;
+}
+main figure {
+    width: 640px;
+    height: 480px;
+    border: 7px darkgoldenrod solid;
+    margin: auto;
+}
+/* the styles for the footer */
+footer {
+    color: bisque;
+	background-color: darkgoldenrod;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	padding: 1em 0;
+}
