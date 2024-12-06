@@ -1,0 +1,137 @@
+/* The styles for the element */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1600px;
+    margin: 1em auto;
+    background-color: blanchedalmond;    
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+@font-face {
+    font-family: Castelar;
+    src: url(CASTELAR.TTF);
+}
+/* the styles for the navigation menu */
+#nav_menu ul {
+    list-style-type: none;    
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 398px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    border-right: 2px solid white;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* The styles for the header */
+header {
+    font-family: Castelar;
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid black;
+    background-color:bisque
+    
+}
+header h2 {
+    font-size: 200%;
+    color: green;
+    text-align: center;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-align: center;
+}
+header img {
+    float: left;
+    padding: 0 30px ;
+}
+.shadow {
+	text-shadow: 2px 2px 2px grey;
+}
+/* The styles for the main content */
+main {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    padding: 1em;
+}
+/* The styles for the section */
+section {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    padding: 1em;
+}
+section img {
+    height: 427px;    /* height: 427px;  width: 640px; */
+    width: 640px;
+}
+section figure {
+    width: 640px;
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+}
+  
+section figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* the styles for the footer */
+footer {
+	background-color: bisque;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	padding: 1em 0;
+}
+/* the styles for the footer */
+footer {
+	background-color: bisque;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	padding: 1em 0;
+}
+
+
+
+
